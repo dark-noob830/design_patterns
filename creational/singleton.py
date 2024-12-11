@@ -10,6 +10,3 @@ class Singleton(type):
 class A(metaclass=Singleton):
     pass
 
-a = A()
-b = A()
-print(id(a), id(b))
